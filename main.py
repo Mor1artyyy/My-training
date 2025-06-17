@@ -21,8 +21,22 @@ alex = {
         "email": "dikabelova65@yandex.ru",
         "academicDegree": "Кандидат педагогических наук",
         "academicTitle": "Доцент",
-        "number": "89094686965"}
+        "number": "89094686965"},
+
+    "Sitnikova":{
+        "Фамилия": "Ситникова",
+        "Имя": "Юлиана",
+        "Отчество": "Евгеньевна",
+        "Дата рождения": "06.05.2006г",
+        "Полных лет": "19",
+        "Прописка": "г.Майкоп, ул.Шовгенова 342",
+        "Место обучения": "АГУ",
+        "Факультет": "Факультет иностранных языков",
+        "Курс": "1",
+        "Статус": "В отношениях с......",
+        "Интересные факты": "Любит смешариков. Имеет 20+ любовников((("}
         }
+
 print("Привет!!!\n"
       "Кого Ищем?")
 user_data = input('Enter teachers name: ')
@@ -51,5 +65,18 @@ elif user_data == 'Belova':
     print("Научная степень: ", alex["Belova"]["academicDegree"])
     print("Должность: ", alex["Belova"]["academicTitle"])
     print("Номер: ", alex["Belova"]["number"])
+
+elif user_data == 'Sitnikova':
+    print("Фамилия: ", alex["Sitnikova"]["Фамилия"])
+    print("Имя: ", alex["Sitnikova"]["Имя"])
+    print("Отчество: ", alex["Sitnikova"]["Отчество"])
+    print("Дата рождения: ", alex["Sitnikova"]["Дата рождения"])
+    print("Полных лет: ", alex["Sitnikova"]["Полных лет"])
+    print("Прописка: ", alex["Sitnikova"]["Прописка"])
+    print("Место обучения: ", alex["Sitnikova"]["Место обучения"])
+    print("Факультет: ", alex["Sitnikova"]["Факультет"])
+    print("Курс: ", alex["Sitnikova"]["Курс"])
+    print("Статус: ", alex["Sitnikova"]["Статус"])
+    print("Интересные факты: ", alex["Sitnikova"]["Интересные факты"])
 else:
     print("Sorry, i dont found anyone(")
